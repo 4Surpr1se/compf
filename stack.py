@@ -17,4 +17,7 @@ class Stack:
         return self.array[len(self.array) - 1]
 
     def is_empty(self):
+        """
+        Просто проверка на пустой стэк
+        """
         return len(self.array) == 0
